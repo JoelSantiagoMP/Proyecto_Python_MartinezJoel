@@ -1,0 +1,71 @@
+{
+    "campers": [
+        {
+            "id": 1,
+            "nombres": "38",
+            "apellidos": "3",
+            "direccion": "3",
+            "acudiente": "3",
+            "edad": 3,
+            "ruta": "N/A",
+            "celular": "3",
+            "fijo": "3",
+            "riesgo": null,
+            "nota": 0,
+            "estado": "Inscrito"
+        },
+        {
+            "id": 2,
+            "nombres": "Joel",
+            "apellidos": "Martinez",
+            "direccion": "cra 5",
+            "acudiente": "yamile",
+            "edad": 18,
+            "ruta": 1,
+            "celular": "311",
+            "fijo": "",
+            "riesgo": "N/A",
+            "nota": 80.0,
+            "estado": "Cursando",
+            "trainer_asignado": 1,
+            "matricula": {
+                "ruta_id": 1,
+                "trainer_id": 1,
+                "salon": "Sala Azul",
+                "fecha_inicio": "07/07/2007",
+                "fecha_fin": "07/07/2007"
+            }
+        }
+    ],
+    "trainers": [
+        {
+            "id": 1,
+            "nombre": "hola",
+            "especialidad": "hola",
+            "telefono": "hola",
+            "estado": "Activo",
+            "campers_asignados": [
+                2
+            ]
+        }
+    ],
+    "rutas": [
+        {
+            "id": 1,
+            "nombre": "Fortnite",
+            "modulos": [
+                "epic"
+            ],
+            "sgdb_principal": "xd",
+            "sgdb_alternativo": "xd",
+            "capacidad": 33,
+            "campers_asignados": [
+                1,
+                2
+            ],
+            "trainers_asignados": [
+                1
+            ]
+        }
+    ]
+}
